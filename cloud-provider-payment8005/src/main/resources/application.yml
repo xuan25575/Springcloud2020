@@ -1,0 +1,10 @@
+server:
+  port: 8005
+
+#入住eureka server 的服务名称
+spring:
+  application:
+    name: cloud-payment-service #服务名称
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
